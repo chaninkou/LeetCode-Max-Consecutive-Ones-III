@@ -1,4 +1,4 @@
-package oneOrZero;
+package leetcode1004;
 
 public class FindMaxConsecutiveWithReplacementFunction {
 	// Sliding window method
@@ -19,7 +19,7 @@ public class FindMaxConsecutiveWithReplacementFunction {
                 zeroCount++;
             }
             
-            // making sure that 0 can be replaced by 1
+            // Move start pointer when we can not replace 0 anymore
             while(zeroCount > K){
                 if(A[start] == 0){
                     zeroCount--;

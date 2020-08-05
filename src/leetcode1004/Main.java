@@ -1,4 +1,4 @@
-package oneOrZero;
+package leetcode1004;
 
 import java.util.Arrays;
 
