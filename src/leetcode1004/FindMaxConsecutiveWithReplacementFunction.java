@@ -7,7 +7,7 @@ public class FindMaxConsecutiveWithReplacementFunction {
             return 0;
         }
         
-        // start pointer move as there is not enough replacement for 0
+        // start pointer move as soon as not enough replacement for 0
         int zeroCount = 0;
         
         int start = 0;
