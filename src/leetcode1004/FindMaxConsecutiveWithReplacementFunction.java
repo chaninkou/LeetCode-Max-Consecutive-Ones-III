@@ -2,6 +2,7 @@ package leetcode1004;
 
 public class FindMaxConsecutiveWithReplacementFunction {
 	// Sliding window method
+	// O(n) time
     public int longestOnes(int[] A, int K) {
         if(A.length == 0 || A == null){
             return 0;
